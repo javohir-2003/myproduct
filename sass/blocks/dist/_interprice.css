@@ -1,0 +1,45 @@
+.interprice {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.interprice__inner {
+  text-align: center;
+}
+
+.interprice__span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #22343D;
+  margin-bottom: 16px;
+}
+
+.interprice__heading {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 51px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.interprice__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #22343D;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.interprice__btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 8px;
+  padding: 11px 18px;
+  border: none;
+}
