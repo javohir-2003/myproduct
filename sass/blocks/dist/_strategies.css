@@ -1,6 +1,6 @@
 .carusel {
   margin-bottom: 150px;
-padding-top: 100px;
+  padding-top: 100px;
 }
 
 .carusel__inner {
@@ -47,12 +47,12 @@ padding-top: 100px;
   list-style-type: none;
   border-radius: 8px;
   background: #ffffff;
-border-radius: 8px;
-padding-bottom: 40px;
-border: 1px solid #ffffff;;
+  border-radius: 8px;
+  padding-bottom: 40px;
+  border: 1px solid #ffffff;
 }
 
-.carusel__item:last-child{
+.carusel__item:last-child {
   margin-right: 0;
 }
 
@@ -74,40 +74,39 @@ border: 1px solid #ffffff;;
 }
 
 .carusel__black {
-color: #333;
+  color: #333;
 }
 
-
-.carusel__box{
+.carusel__box {
   padding-left: 24px;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
   color: #22343D;
 }
+
 .carusel__box-active {
   display: block;
   margin-left: 24px !important;
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
-  color: #02897A
+  color: #02897A;
 }
 
-@media only screen and (max-width:576px) {
-  .carusel__list{
-      align-items: center;
-      flex-direction: column !important;
+@media only screen and (max-width: 576px) {
+  .carusel__list {
+    align-items: center;
+    flex-direction: column !important;
   }
 
-  .carusel{
-      margin-bottom: 61px;
-  }
-  .carusel__item{
-      width: 325px;
-      margin-right: 0;
-      margin-bottom: 16px;
+  .carusel {
+    margin-bottom: 61px;
   }
 
-
+  .carusel__item {
+    width: 325px;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
 }

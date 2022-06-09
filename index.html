@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
             <li class="menu__item"> <a href="./index.html" class="menu__link">Product</a> </li>
             <li class="menu__item"> <a href="./customer.html" class="menu__link">Customers</a> </li>
             <li class="menu__item"> <a href="./about.html" class="menu__link">Pricing</a> </li>
-            <li class="menu__item"> <a href="./about.html" class="menu__link">Resources</a> </li>
+            <li class="menu__item"> <a href="./resources.html" class="menu__link">Resources</a> </li>
             <li class="menu__item"> <a href="#" class="menu__button__item">Sign In</a> </li>
             <li class="menu__item"> <a href="#" class="menu__button__item menu__button__item--active">Sign In</a> </li>
           </ol>
@@ -307,205 +308,138 @@
 
 
 
-<!-- 
-<section class="content">
+<section class="carusel">
   <div class="container">
-    <div class="content__box">
-      <h3 class="content__title">Contents Strategies</h3>
-      <p class="content__text">
-        We focus on ergonomics and meeting you where you work. It's only a
-        keystroke away.
+    <div class="carusel__inner">
+      <h2 class="carusel__hiading">
+        Contents Strategies
+      </h2>
+      <p class="carusel__text">
+        We focus on ergonomics and meeting you where you work. It's only a keystroke away.
       </p>
-      <div
-        id="carouselExampleIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel__indicators">
-          <button
-            class="btns"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="0"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            class="btns actives"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            class="btns"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="content__inner">
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/image-bg.png" alt="Content img" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Increasing Prosperity With Positive Thinking
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/Bitmap.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Motivation Is The First Step To Success
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/company.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Success Steps For Your Personal Or Business
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content__inner">
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/image-bg.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Increasing Prosperity With Positive Thinking
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/Bitmap.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Motivation Is The First Step To Success
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/company.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Success Steps For Your Personal Or Business
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="content__inner">
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/image-bg.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Increasing Prosperity With Positive Thinking
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/Bitmap.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Motivation Is The First Step To Success
-                  </h5>
-                </div>
-              </div>
-              <div class="content__item card" style="width: 22rem">
-                <img src="./img/company.png" alt="" />
-                <div class="card-body ps-4 pe-5 bg-white">
-                  <p class="card-text">
-                    By <span class="fw-bold">Wahid Ari |</span>
-                    <time datetime="2019-03-03">03 March 2019</time>
-                  </p>
-                  <h5 class="card-title fw-bold fs-4">
-                    Success Steps For Your Personal Or Business
-                  </h5>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
     </div>
-  </div>
-</section> -->
+    <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner carusel__carusel">
+        <div class="carousel-item active">
+          <ul class="d-block w-100 carusel__list">
+            <li class="carusel__item">
+              <img src="./img/image-bg.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box">
+                Motivation Is The First Step To Success
+              </div>
+            </li>
+            <li class="carusel__item">
+              <img src="./img/Bitmap.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box-active">
+                Increasing Prosperity With Positive Thinking
+              </div>
+            </li>
+            <li class="carusel__item">
+              <img src="./img/company.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box">
+                Success Steps For Your Personal Or Business
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+          <ul class="d-block w-100 carusel__list">
+            <li class="carusel__item">
+              <img src="./img/image-bg.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box-active">
+                Motivation Is The First Step To Success
+              </div>
+            </li>
+            <li class="carusel__item">
+              <img src="./img/Bitmap.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box">
+                Increasing Prosperity With Positive Thinking
+              </div>
+            </li>
+            <li class="carusel__item">
+              <img src="./img/company.png" width="348" height="185" alt="img" class="carusel__img">
+              <div class="carusel__text">
+                By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+              </div>
+              <div class="carusel__box">
+                Success Steps For Your Personal Or Business
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="carousel-item">
+<ul class="carusel__list d-block w-100">
+  <li class="carusel__item">
+    <img src="./img/image-bg.png" width="348" height="185" alt="img" class="carusel__img">
+    <div class="carusel__text">
+      By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+    </div>
+    <div class="carusel__box">
+      Motivation Is The First Step To Success
+    </div>
+  </li>
+  <li class="carusel__item">
+    <img src="./img/Bitmap.png" width="348" height="185" alt="img" class="carusel__img">
+    <div class="carusel__text">
+      By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+    </div>
+    <div class="carusel__box">
+      Success Steps For Your Personal Or Business
+    </div>
+  </li>
+  <li class="carusel__item">
+    <img src="./img/company.png" width="348" height="185" alt="img" class="carusel__img">
+    <div class="carusel__text">
+      By <span class="carusel__black">Wahid Ari</span> | 03 March 2019
+    </div>
+    <div class="carusel__box-active">
+      Increasing Prosperity With Positive Thinking
+    </div>
+  </li>
+</ul>
+</div>
+</div>
 
 
 
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</div>
+</section>
 
-
-
-
-
-
-
-
+ 
 
 
 
@@ -582,16 +516,6 @@
     </div>
   </div>
 </section> 
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -816,7 +740,7 @@
       </div>
     </footer> 
     
-    
+    <script src="./js/bootstrap.min.js"></script>
 
 </body>
 </html>

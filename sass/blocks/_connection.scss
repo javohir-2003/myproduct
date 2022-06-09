@@ -1,0 +1,145 @@
+.connection {
+
+
+}
+
+
+
+.connection__inner {
+
+
+}
+
+
+.connection__heading {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 0;
+  color: #252B42;
+margin-bottom: 27px;
+}
+
+
+.connection__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  margin: 0;
+  color: #374754;
+margin-bottom: 65px;
+}
+
+
+.connection__app {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+max-width: 194px;
+margin: 0 auto;
+margin-bottom: 65px;
+}
+
+
+.connection__app__link {
+text-decoration: none;
+
+}
+
+
+.connection__app__img {
+width: 50px;
+height: 50px;
+
+}
+
+
+.connection__iframe{
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 60px;
+  width: 100%;
+  max-width: 871px;
+  height: 323;
+}
+
+.connection__form {
+  display: block;
+  margin: 0 auto;
+  background: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 20px;
+width: 100%;
+max-width: 868px;
+padding: 50px;
+}
+
+
+.connection__form__heading {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  margin: 0;
+  color: #252B42;
+text-align: center;
+margin-bottom: 45px;
+}
+
+
+.connection__input {
+display: block;
+width: 100%;
+max-width: 768px;
+background: #F5F5F5;
+border: 1px solid #E8E8E8;
+border-radius: 39px;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+letter-spacing: 0.1px;
+padding: 19px 20px;
+color: #22343D;
+margin: 0 auto;
+margin-bottom: 45px;
+}
+
+
+.connection__area {
+display: block;
+width: 100%;
+max-width: 768px;
+margin: 0 auto;
+background: #F5F5F5;
+border: 1px solid #E8E8E8;
+resize: none;
+padding-top: 23px;
+padding-left: 20px;
+margin-bottom: 45px;
+}
+
+
+.connection__btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  background: #02897A;
+  border-radius: 35px;
+  padding: 18px 54px;
+  border: none;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .connection__form {
+   border: none;
+  }
+}
+
