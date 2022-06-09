@@ -94,6 +94,7 @@
   .button {
     margin-left: auto;
     display: block;
+    color: black;
   }
 
   .site-header__btn {
